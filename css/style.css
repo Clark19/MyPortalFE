@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@import "variables.css";
+
+h2 { font-family: 'Philosopher', sans-serif; }
+a { text-decoration: none; }
+img { max-width: 100%; }
+/* 컨테이너 초기화 */
+/* max-width로 반응형과 유사하게 유연하게 너비 작아져도 어느정도 알아서 조정됨. width: 로하면 너비가 고정되서 화면 작아지면 짤림 */
+.wrapper { 	max-width: 1100px; margin: 0 auto; padding: 0 4%; } 
+
+html { font-size: 1.7; }
+body { font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, sans-serif;
+  line-height: 1.7; color: var(--color-text); }
+#home { 
+		background: url(../img/설악산_대청봉_공룡능선8_나.jpg);
+		min-height: 100vh;
+}
+#home.big-bg {
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+/** Header **/
+.page-header { display: flex; justify-content:space-between;}
+.logo { width: 210px; margin-top: 14px; } 
+
+.main-nav { display: flex; font-size: 1.25rem; text-transform: uppercase;
+  margin-top: 34px; list-style: none; }
+.main-nav li { margin-left: 36px; }
+.main-nav a { color: var(--color-text); }
+.main-nav a:hover { color: var(--color--link-hover); }
+
+
+
+.home-content { text-align: center; margin-top: 10%; }
+.home-content p { font-size: 1.125rem; margin: 10px 0 42px; /* 위 | 좌우 | 아래 */ }
+
+/* 페이지 타이틀 */
+/* 제목 */
+.page-title {
+	font-size: 5rem;
+	font-family: 'Philosopher', serif;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+/* 버튼 */
+.button {
+	font-size: 1.375rem;
+	background: #0bd;
+	color: #fff;
+	border-radius: 5px;
+	padding: 18px 32px;
+}
+.button:hover { background: var(--color-button-hover); }
+
+/* 테스트용 */
+/* .topMenu {
+	display: flex;
+} */
+
