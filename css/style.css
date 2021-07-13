@@ -12,7 +12,7 @@ html { font-size: 1.7; }
 body { font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, sans-serif;
   line-height: 1.7; color: var(--color-text); }
 #home { 
-		background: url(../img/설악산_대청봉_공룡능선8_나.jpg);
+		background: url(../img/설악산_대청봉_소청가는길1.jpg);
 		min-height: 100vh;
 }
 #home.big-bg {
